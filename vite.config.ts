@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/yamiko-medical/', // Replace 'repo-name' with your actual repository name
+  base: '/yamiko_medical/', 
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
