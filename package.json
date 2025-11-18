@@ -1,4 +1,5 @@
 {
+  "homepage": "https://rasiga-dev.github.io/yomiko-medical",
   "name": "yamiko-medical",
   "private": true,
   "version": "0.0.0",
@@ -7,8 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint .",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d build",
+    "lint": "eslint ."
   },
   "dependencies": {
     "framer-motion": "^12.23.12",
