@@ -13,6 +13,9 @@ import {
   Pill,
   Heart
 } from 'lucide-react';
+import bpMonitorImg from '../assets/digital bp monitor.jpg';
+import SurgicalInstrumentSet from '../assets/Surgical Instrument Set.jpg';
+import ElectricHospitalBed from '../assets/Electric Hospital Bed.jpg';
 
 const Home = () => {
   const featuredProducts = [
@@ -20,21 +23,21 @@ const Home = () => {
       name: 'Digital Blood Pressure Monitor',
       description: 'Accurate, automated blood pressure monitoring with large display and memory storage.',
       category: 'Diagnostics',
-      image: 'https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: bpMonitorImg,
       brochureUrl: '/brochures/bp-monitor.pdf'
     },
     {
       name: 'Surgical Instrument Set',
       description: 'Complete surgical instrument kit with stainless steel tools for various procedures.',
       category: 'Surgical',
-      image: 'https://images.pexels.com/photos/4021769/pexels-photo-4021769.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: SurgicalInstrumentSet,
       brochureUrl: '/brochures/surgical-set.pdf'
     },
     {
       name: 'Hospital Bed - Electric',
       description: 'Adjustable electric hospital bed with safety rails and comfortable mattress.',
       category: 'Furniture',
-      image: 'https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: ElectricHospitalBed ,
       brochureUrl: '/brochures/hospital-bed.pdf'
     }
   ];

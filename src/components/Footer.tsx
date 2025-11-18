@@ -16,21 +16,24 @@ const Footer = () => {
               <span className="font-bold text-xl">Yamiko Medical</span>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
-              Trusted distributor of medical equipment and healthcare solutions, delivering reliable, 
+              Trusted distributor of medical equipment and healthcare solutions, delivering reliable,
               high-quality products to hospitals, clinics, NGOs, and government health boards across Africa.
             </p>
             <div className="space-y-2">
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-blue-400" />
-                <span className="text-gray-300">Lilongwe, Malawi</span>
+                <span className="text-gray-300">Yamiko Med Tech Distributing PVT Company LTD.<br />
+                  Area 14/144<br />
+                  Lilongwe, Malawi</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-blue-400" />
-                <span className="text-gray-300">+265-XXX-XXX-XXX</span>
+                <span className="text-gray-300"> +265 997 108 065 / +265 12 84 29</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-blue-400" />
-                <span className="text-gray-300">info@yamikomedical.com</span>
+                <span className="text-gray-300">  
+                francis.malunga@gmail.com | inkchirwa@gmail.com</span>
               </div>
             </div>
           </div>

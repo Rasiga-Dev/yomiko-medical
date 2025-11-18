@@ -28,7 +28,7 @@ const Navbar = () => {
             </div>
             <div className="flex items-center space-x-2">
               <Phone className="h-4 w-4" />
-              <span>+265-XXX-XXX-XXX</span>
+              <span>+265 997108065 | +265 888 12 84 29</span>
             </div>
           </div>
           <div className="hidden md:block">

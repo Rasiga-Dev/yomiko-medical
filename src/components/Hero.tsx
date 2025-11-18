@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { CheckCircle, ArrowRight } from 'lucide-react';
+import MedicalEquipmentServicesAbout from '../assets/Medical Equipment & Services(home).jpg';
 
 const Hero = () => {
   const highlights = [
@@ -20,8 +21,10 @@ const Hero = () => {
               & Services
             </h1>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Delivering reliable, high-quality medical equipment to hospitals, clinics, NGOs, 
-              and government health boards across Africa.
+              The Med Tech industry is poised for significant growth, driven by technological innovations, 
+              shifting patient needs, and evolving regulatory landscapes. We would like to be one of the 
+              companies that prioritize patient-centric design, sustainability in Malawi, and digital 
+              integration will be well-positioned for success in 2025 and beyond.
             </p>
 
             {/* Highlights */}
@@ -63,7 +66,7 @@ const Hero = () => {
             <div className="relative">
               <div className="bg-blue-100 rounded-2xl p-8 shadow-2xl">
                 <img
-                  src="https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src={MedicalEquipmentServicesAbout}
                   alt="Medical Equipment"
                   className="w-full h-96 object-cover rounded-xl"
                 />

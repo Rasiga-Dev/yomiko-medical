@@ -1,6 +1,23 @@
 import React, { useState } from 'react';
 import ProductCard from '../components/ProductCard';
 import { Search, Filter } from 'lucide-react';
+import bpMonitorImg from '../assets/digital bp monitor.jpg';
+import digitalThermometerSet from '../assets/Digital Thermometer Set.jpg';
+import ECGMachineLead from '../assets/ECG Machine - 12 Lead.jpg';
+import PortableUltrasoundScanner from '../assets/Portable Ultrasound Scanner.jpg';
+import SurgicalInstrumentSet from '../assets/Surgical Instrument Set.jpg';
+import OperatingScissorsSet from '../assets/Operating Scissors Set.jpg';
+import ForcepsCollection from '../assets/Forceps Collection.jpg';
+import SurgicalScalpelKit from '../assets/Surgical Scalpel Kit.jpg';
+import ElectricHospitalBed from '../assets/Electric Hospital Bed.jpg';
+import MedicalExaminationTable from '../assets/Medical Examination Table.jpg';
+import MedicalTrolley from '../assets/Medical Trolley.jpg';
+import WheelchairStandard from '../assets/Wheelchair - Standard.jpg';
+import DisposableGlovesNitrile from '../assets/Disposable Gloves (Nitrile).jpg';
+import DisposableSyringes from '../assets/Disposable Syringes.jpg';
+import SurgicalMasks3Ply from '../assets/Surgical Masks (3-Ply).jpg';
+import MedicalBandagesSet from '../assets/Medical Bandages Set.jpg';
+import bg_img1 from '../assets/img1.jpg';
 
 const Products = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
@@ -13,112 +30,112 @@ const Products = () => {
       name: 'Digital Blood Pressure Monitor',
       description: 'Accurate, automated blood pressure monitoring with large display and memory storage for patient data.',
       category: 'Diagnostics',
-      image: 'https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: bpMonitorImg,
       brochureUrl: '/brochures/bp-monitor.pdf'
     },
     {
       name: 'Digital Thermometer Set',
       description: 'Non-contact infrared thermometers for quick and accurate temperature readings.',
       category: 'Diagnostics',
-      image: 'https://images.pexels.com/photos/4386464/pexels-photo-4386464.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: digitalThermometerSet,
       brochureUrl: '/brochures/thermometer.pdf'
     },
     {
       name: 'ECG Machine - 12 Lead',
       description: 'Portable 12-lead ECG machine with high-resolution display and printing capabilities.',
       category: 'Diagnostics',
-      image: 'https://images.pexels.com/photos/4021761/pexels-photo-4021761.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: ECGMachineLead,
       brochureUrl: '/brochures/ecg-machine.pdf'
     },
     {
       name: 'Portable Ultrasound Scanner',
       description: 'Compact ultrasound system with multiple probes for various diagnostic applications.',
       category: 'Diagnostics',
-      image: 'https://images.pexels.com/photos/4021773/pexels-photo-4021773.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: PortableUltrasoundScanner,
       brochureUrl: '/brochures/ultrasound.pdf'
     },
     {
       name: 'Surgical Instrument Set',
       description: 'Complete surgical instrument kit with stainless steel tools for various surgical procedures.',
       category: 'Surgical',
-      image: 'https://images.pexels.com/photos/4021769/pexels-photo-4021769.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: SurgicalInstrumentSet,
       brochureUrl: '/brochures/surgical-set.pdf'
     },
     {
       name: 'Operating Scissors Set',
       description: 'High-quality surgical scissors in various sizes for precision cutting and dissection.',
       category: 'Surgical',
-      image: 'https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: OperatingScissorsSet,
       brochureUrl: '/brochures/scissors.pdf'
     },
     {
       name: 'Forceps Collection',
       description: 'Comprehensive set of surgical forceps for grasping, holding, and manipulating tissue.',
       category: 'Surgical',
-      image: 'https://images.pexels.com/photos/4021769/pexels-photo-4021769.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: ForcepsCollection,
       brochureUrl: '/brochures/forceps.pdf'
     },
     {
       name: 'Surgical Scalpel Kit',
       description: 'Disposable and reusable scalpel handles with various blade sizes for surgical procedures.',
       category: 'Surgical',
-      image: 'https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: SurgicalScalpelKit,
       brochureUrl: '/brochures/scalpel-kit.pdf'
     },
     {
       name: 'Electric Hospital Bed',
       description: 'Adjustable electric hospital bed with safety rails, comfortable mattress, and remote control.',
       category: 'Furniture',
-      image: 'https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: ElectricHospitalBed,
       brochureUrl: '/brochures/hospital-bed.pdf'
     },
     {
       name: 'Medical Examination Table',
       description: 'Adjustable examination table with paper roll holder and storage compartments.',
       category: 'Furniture',
-      image: 'https://images.pexels.com/photos/4021548/pexels-photo-4021548.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: MedicalExaminationTable,
       brochureUrl: '/brochures/exam-table.pdf'
     },
     {
       name: 'Medical Trolley',
       description: 'Multi-tier medical trolley with drawers and compartments for organizing medical supplies.',
       category: 'Furniture',
-      image: 'https://images.pexels.com/photos/4021772/pexels-photo-4021772.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: MedicalTrolley,
       brochureUrl: '/brochures/medical-trolley.pdf'
     },
     {
       name: 'Wheelchair - Standard',
       description: 'Comfortable and durable wheelchair with adjustable footrests and easy-to-use brakes.',
       category: 'Furniture',
-      image: 'https://images.pexels.com/photos/4021766/pexels-photo-4021766.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: WheelchairStandard,
       brochureUrl: '/brochures/wheelchair.pdf'
     },
     {
       name: 'Disposable Gloves (Nitrile)',
       description: 'High-quality nitrile gloves, powder-free, suitable for medical and laboratory use.',
       category: 'Consumables',
-      image: 'https://images.pexels.com/photos/4386464/pexels-photo-4386464.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: DisposableGlovesNitrile,
       brochureUrl: '/brochures/nitrile-gloves.pdf'
     },
     {
       name: 'Disposable Syringes',
       description: 'Sterile disposable syringes in various sizes for medication administration and sample collection.',
       category: 'Consumables',
-      image: 'https://images.pexels.com/photos/4386465/pexels-photo-4386465.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: DisposableSyringes,
       brochureUrl: '/brochures/syringes.pdf'
     },
     {
       name: 'Surgical Masks (3-Ply)',
       description: 'Disposable 3-ply surgical masks with ear loops, providing effective protection.',
       category: 'Consumables',
-      image: 'https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: SurgicalMasks3Ply,
       brochureUrl: '/brochures/surgical-masks.pdf'
     },
     {
       name: 'Medical Bandages Set',
       description: 'Comprehensive set of medical bandages including elastic, gauze, and adhesive varieties.',
       category: 'Consumables',
-      image: 'https://images.pexels.com/photos/4386464/pexels-photo-4386464.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: MedicalBandagesSet,
       brochureUrl: '/brochures/bandages.pdf'
     }
   ];
@@ -131,15 +148,16 @@ const Products = () => {
   });
 
   return (
-    <div className="pt-20">
+    <div>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-50 to-white py-20">
+      <section  style={{ backgroundImage: `url(${bg_img1})` }}
+       className="bg-cover bg-center py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-3">
               Our Products & Services
             </h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+            <p className="text-xl text-gray-900 max-w-3xl mx-auto mb-2">
               Comprehensive medical equipment catalog featuring diagnostic devices, surgical instruments, 
               hospital furniture, and consumables from trusted manufacturers worldwide.
             </p>
@@ -148,7 +166,7 @@ const Products = () => {
       </section>
 
       {/* Search and Filter */}
-      <section className="py-8 bg-white shadow-sm sticky top-16 z-40">
+      <section className="py-8 bg-white shadow-sm sticky top-10 z-40">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row gap-4 items-center justify-between">
             {/* Search */}

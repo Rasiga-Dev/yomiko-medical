@@ -10,6 +10,7 @@ import {
   ArrowRight,
   CheckCircle
 } from 'lucide-react';
+import bgimg from '../assets/img4.jpg';
 
 const Industries = () => {
   const industries = [
@@ -86,15 +87,16 @@ const Industries = () => {
   ];
 
   return (
-    <div className="pt-20">
+    <div>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-50 to-white py-20">
+      <section  style={{ backgroundImage: `url(${bgimg})` }}
+       className="bg-cover bg-center py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               Industries We Serve
             </h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+            <p className="text-xl text-gray-900 max-w-3xl mx-auto mb-8">
               Supporting healthcare delivery across multiple sectors with specialized solutions 
               tailored to meet the unique needs of each industry.
             </p>
