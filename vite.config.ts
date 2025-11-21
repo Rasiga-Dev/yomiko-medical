@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/yomiko-medical/',  // <– உங்கள் GitHub repo name
+  base: '/yomiko-medical/',  // GitHub repo name
 })
