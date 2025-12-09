@@ -32,7 +32,7 @@ const Navbar = () => {
             </div>
           </div>
           <div className="hidden md:block">
-            <span>Trusted Medical Equipment Distributor in Malawi / Africa</span>
+            <span>Yamiko Medi Tech Equipment Distributor in Malawi / Africa</span>
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@ const Navbar = () => {
                 <div className="bg-blue-600 text-white p-2 rounded-lg">
                   <span className="font-bold text-xl">YM</span>
                 </div>
-                <span className="font-bold text-xl text-gray-900">Yamiko Medical</span>
+                <span className="font-bold text-xl text-gray-900">Yamiko Medi Tech</span>
               </Link>
             </div>
 

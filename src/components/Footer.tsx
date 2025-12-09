@@ -13,7 +13,7 @@ const Footer = () => {
               <div className="bg-blue-600 text-white p-2 rounded-lg">
                 <span className="font-bold text-xl">YM</span>
               </div>
-              <span className="font-bold text-xl">Yamiko Medical</span>
+              <span className="font-bold text-xl">Yamiko Medi Tech</span>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
               Trusted distributor of medical equipment and healthcare solutions, delivering reliable,
@@ -22,7 +22,7 @@ const Footer = () => {
             <div className="space-y-2">
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-blue-400" />
-                <span className="text-gray-300">Yamiko Med Tech Distributing PVT Company LTD.<br />
+                <span className="text-gray-300">Yamiko Medi Tech Distributing PVT Company LTD.<br />
                   Area 14/144<br />
                   Lilongwe, Malawi</span>
               </div>
@@ -66,7 +66,7 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-300 text-sm">
-              © 2024 Yamiko Medical. All rights reserved.
+              © 2024 Yamiko Medi Tech. All rights reserved.
             </p>
             <div className="flex space-x-4 mt-4 md:mt-0">
               <a href="#" className="text-gray-300 hover:text-white transition-colors duration-200">

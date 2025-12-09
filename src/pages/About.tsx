@@ -80,10 +80,10 @@ const About = () => {
             {/* Text - 2/5 columns = 40% */}
             <div className="lg:col-span-2">
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-                About <span className="text-blue-600">Yamiko Medical</span>
+                About <span className="text-blue-600">Yamiko Medi Tech</span>
               </h1>
               <p className="text-xl text-gray-600 mb-6 leading-relaxed">
-                Yamiko Medical is a trusted supplier of medical equipment and healthcare solutions,
+                Yamiko Medi Tech is a trusted supplier of medical equipment and healthcare solutions,
                 dedicated to improving healthcare delivery across Africa through reliable,
                 high-quality products and exceptional service.
               </p>

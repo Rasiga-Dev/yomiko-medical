@@ -166,7 +166,7 @@ const Contact = () => {
                   <h3 className="text-xl font-bold text-gray-800">Office Location</h3>
                 </div>
                 <p className="text-gray-700 leading-relaxed text-sm">
-                  <span className="font-medium">Yamiko Med Tech Distributing PVT Company LTD.</span><br />
+                  <span className="font-medium">Yamiko Medi Tech Distributing PVT Company LTD.</span><br />
                   Area 14/144,<br />
                   Lilongwe, Malawi
                 </p>
@@ -253,7 +253,7 @@ const Contact = () => {
                     <div>
                       <h4 className="font-semibold text-gray-900 mb-1">Main Office</h4>
                       <p className="text-gray-600">
-                        Yamiko Med Tech Distributing PVT Company LTD.<br />
+                        Yamiko Medi Tech Distributing PVT Company LTD.<br />
                         Area 14/144<br />
                         Lilongwe, Malawi
                       </p>
